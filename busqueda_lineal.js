@@ -14,12 +14,10 @@ function busquedaLineal(arreglo,datoBuscado) {
 }
 
 const datos = [15,8,42,23,4,16,50]
-const resultado = busquedaLineal(datos,4);
+const resultado = busquedaLineal(datos,5);
 
 if(resultado !== -1){
     console.log(`Dato encontrado en el índice: ${resultado}`);
 }else{
     console.log("El dato buscado no se encuentra en el arreglo.")
 }
-
-
